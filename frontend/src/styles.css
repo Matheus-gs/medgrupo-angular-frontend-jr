@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > .container-options {
+  align-self: end;
+}
+
+.container-options {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+mat-card {
+  margin: 1rem 0;
+}
+
+mat-list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-list-item a {
+  margin-right: 0.4rem;
+  color: #06c;
+  cursor: pointer;
+}

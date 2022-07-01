@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="container-options">
+    <button mat-raised-button (click)="updateTable()">
+      <mat-icon>sync</mat-icon> atualizar
+    </button>
+    <button mat-raised-button color="primary" (click)="openCreateModal()">
+      <mat-icon>add</mat-icon> Cadastrar
+    </button>
+  </div>
+
+  <mat-card *ngFor="let escola of listaEscolas">
+    <mat-card-content>
+      <mat-list>
+        <mat-list-item>
+          {{ escola.nome }}
+        </mat-list-item>
+        <mat-list-item> Endereço: {{ escola.endereco }} </mat-list-item>
+        <mat-list-item> Telefone: {{ escola.telefone }} </mat-list-item>
+        <mat-list-item>
+          <a (click)="openUpdateModal(escola.id)"> Editar </a>
+          <a (click)="openDeleteModal(escola.id)"> Remover </a>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -1,0 +1,85 @@
+{
+  "escolas": [
+    {
+      "nome": "Centro Educacional do Lago",
+      "endereco": "Qi, Area Especial - Lago Sul, Brasília - DF, 71540-045",
+      "telefone": "6139012635",
+      "id": 1
+    },
+    {
+      "nome": "Centro Educacional Setor Leste",
+      "endereco": "Sgas 611 612 - Conjunto e - Sn Sgas 611 612 - Conjunto e - Sn - Asa Sul, DF, 70200-715",
+      "telefone": "6139017605",
+      "id": 2
+    },
+    {
+      "nome": "Centro de Ensino Fundamental CEF 06",
+      "endereco": "SHIS QI 15 - Lago Sul, Brasília - DF, 70297-400",
+      "telefone": "6139017783",
+      "id": 3
+    }
+  ],
+  "turmas": [
+    {
+      "id": 1,
+      "idEscola": 1,
+      "nome": "A",
+      "serie": "1",
+      "grau": "Ensino Médio"
+    },
+    {
+      "idEscola": "3",
+      "nome": "CD",
+      "serie": "1",
+      "grau": "Ensino Médio",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "idEscola": 2,
+      "nome": "A",
+      "serie": "2",
+      "grau": "Ensino Médio"
+    },
+    {
+      "id": 4,
+      "idEscola": 3,
+      "nome": "B",
+      "serie": "8",
+      "grau": "Ensino Fundamental"
+    },
+    {
+      "idEscola": "2",
+      "nome": "A",
+      "serie": "2",
+      "grau": "Ensino Médio",
+      "id": 5
+    }
+  ],
+  "alunos": [
+    {
+      "id": 1,
+      "idEscola": 1,
+      "idTurma": 2,
+      "matricula": 26136805,
+      "nome": "Matheus Gomes",
+      "dataNascimento": "2002-06-20"
+    },
+    {
+      "id": 2,
+      "idEscola": 2,
+      "idTurma": 3,
+      "matricula": 98765432,
+      "nome": "Gustavo Medeiros",
+      "dataNascimento": "2002-06-20"
+    },
+    {
+      "id": 3,
+      "idEscola": 3,
+      "idTurma": 4,
+      "matricula": 12345678,
+      "nome": "Gustavo Medeiros",
+      "dataNascimento": "2002-06-20"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+
+.sidenav {
+  width: 200px;
+  background: #1a1a1a;
+}
+
+.sidenav a {
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.sidenav a:hover {
+  background: #2a2a2a;
+}
+
+.sidenav a mat-icon {
+  margin-right: 0.4rem;
+}
+
+mat-sidenav-content {
+  padding: 1rem;
+  background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+}

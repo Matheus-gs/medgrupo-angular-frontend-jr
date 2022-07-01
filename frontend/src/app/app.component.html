@@ -1,0 +1,28 @@
+
+<mat-sidenav-container>
+  <mat-sidenav
+    class="sidenav"
+    color="primary"
+    mode="side"
+    fixedInViewport="true"
+    opened
+  >
+    <mat-nav-list>
+      <a mat-list-item routerLink="/home">
+        <mat-icon> home </mat-icon>
+        Home
+      </a>
+      <a mat-list-item routerLink="/escolas">
+        <mat-icon> apartment </mat-icon>
+        Escolas
+      </a>
+      <a mat-list-item routerLink="/turmas">
+        <mat-icon> diversity_3 </mat-icon>
+        Turmas
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

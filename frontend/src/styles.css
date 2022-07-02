@@ -3,36 +3,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.container {
-  background: #fff;
-  display: flex;
-  flex-direction: column;
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-.container > .container-options {
-  align-self: end;
+::-webkit-scrollbar-thumb {
+  background: #aaa;
 }
 
-.container-options {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+.msg-error {
+  background-color: #d45;
+  color: #fff;
 }
 
-mat-card {
-  margin: 1rem 0;
+.msg-success {
+  background-color: #0556a7;
+  color: #fff;
 }
 
-mat-list-item {
-  display: flex;
-  flex-direction: column;
-}
-
-mat-list-item a {
-  margin-right: 0.4rem;
-  color: #06c;
-  cursor: pointer;
+a {
+  cursor: pointer
 }

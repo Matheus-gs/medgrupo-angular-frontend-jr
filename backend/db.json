@@ -1,7 +1,7 @@
 {
   "escolas": [
     {
-      "nome": "Centro Educacional do Lago",
+      "nome": "Centro Educacional do Lago ",
       "endereco": "Qi, Area Especial - Lago Sul, Brasília - DF, 71540-045",
       "telefone": "6139012635",
       "id": 1
@@ -13,7 +13,7 @@
       "id": 2
     },
     {
-      "nome": "Centro de Ensino Fundamental CEF 06",
+      "nome": "Centro de Ensino Fundamental CEF 01",
       "endereco": "SHIS QI 15 - Lago Sul, Brasília - DF, 70297-400",
       "telefone": "6139017783",
       "id": 3

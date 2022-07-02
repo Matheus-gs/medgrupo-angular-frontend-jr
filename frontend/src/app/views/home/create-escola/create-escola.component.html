@@ -1,0 +1,51 @@
+<form [formGroup]="formGroup">
+  <mat-form-field appearance="outline">
+    <mat-label>Nome da instituição</mat-label>
+    <input
+      matInput
+      placeholder="Ex: Centro educacional 03"
+      name="nome"
+      formControlName="nome"
+    />
+    <mat-error *ngIf="formGroup.get('nome').hasError('required')">
+      Campo <strong>obrigatório</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Endereço</mat-label>
+    <textarea
+      matInput
+      placeholder="Ex: Qi, Area Especial - Lago Sul"
+      name="endereco"
+      formControlName="endereco"
+    ></textarea>
+    <mat-error *ngIf="formGroup.get('endereco').hasError('required')">
+      Campo <strong>obrigatório</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Telefone</mat-label>
+    <input
+      [imask]="{mask: '(00)0000-0000'}" 
+      matInput
+      placeholder="Ex: (61) 3901-2635"
+      name="telefone"
+      formControlName="telefone"
+    />
+    <mat-error *ngIf="formGroup.get('telefone').hasError('required')">
+      Campo <strong>obrigatório</strong>
+    </mat-error>
+  </mat-form-field>
+</form>
+
+<button
+  mat-raised-button
+  color="primary"
+  (click)="handleCreate()"
+  [disabled]="!formGroup.valid"
+>
+  Salvar
+</button>
+<button mat-raised-button (click)="handleCancelCreate()">Cancelar</button>

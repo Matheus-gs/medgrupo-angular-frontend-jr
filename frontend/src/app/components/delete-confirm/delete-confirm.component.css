@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container h4{
+  font-size: 1.2rem;
+
+}
+
+.container-options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container-options button {
+  width: 100%;
+  transition: filter 0.3s ease-in-out;
+}
+
+
+.container-options button:hover{
+  filter: brightness(0.9)
+}

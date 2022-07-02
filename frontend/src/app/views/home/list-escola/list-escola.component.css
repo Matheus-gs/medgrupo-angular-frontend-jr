@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.container-options{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
